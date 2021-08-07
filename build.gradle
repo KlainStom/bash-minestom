@@ -16,6 +16,10 @@ dependencies {
     implementation 'com.github.Minestom:Minestom:new-block-api-SNAPSHOT'
 }
 
+processResources {
+    filter { String line -> line.replace("@version@", this.version.toString()) }
+}
+
 shadowJar {
     archiveBaseName.set("bash-minestom")
     archiveClassifier.set('')
