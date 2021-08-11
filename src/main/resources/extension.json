@@ -1,14 +1,6 @@
 {
-  "entrypoint": "com.github.saneminestom.ExtensionMain",
+  "entrypoint": "com.github.klainstom.ExtensionMain",
   "name": "BashScripts",
-  "version": "@version@",
-  "authors": ["offby0point5"],
-  "NOexternalDependencies": {
-    "repositories": [
-      {"name": "Central", "url": "https://repo1.maven.org/maven2/"}
-    ],
-    "artifacts": [
-      "com.squareup:javapoet:1.13.0"
-    ]
-  }
+  "version": "${version}",
+  "authors": ["offby0point5"]
 }

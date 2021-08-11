@@ -1,4 +1,4 @@
-package com.github.saneminestom;
+package com.github.klainstom;
 
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.extensions.DiscoveredExtension;

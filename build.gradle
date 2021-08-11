@@ -3,7 +3,7 @@ plugins {
     id 'java'
 }
 
-group 'com.github.saneminestom'
+group 'com.github.klainstom'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -13,12 +13,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.Minestom:Minestom:new-block-api-SNAPSHOT'
+    compileOnly 'com.github.Minestom:Minestom:new-block-api-SNAPSHOT'
 }
 
-processResources {
-    filter { String line -> line.replace("@version@", this.version.toString()) }
-}
+processResources.expand('version': version)
 
 shadowJar {
     archiveBaseName.set("bash-minestom")
