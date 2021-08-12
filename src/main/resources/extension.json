@@ -1,5 +1,5 @@
 {
-  "entrypoint": "com.github.klainstom.ExtensionMain",
+  "entrypoint": "com.github.klainstom.bashscripts.ExtensionMain",
   "name": "BashScripts",
   "version": "${version}",
   "authors": ["offby0point5"]

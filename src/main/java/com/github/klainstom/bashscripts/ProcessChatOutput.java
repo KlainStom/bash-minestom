@@ -1,4 +1,4 @@
-package com.github.klainstom;
+package com.github.klainstom.bashscripts;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;

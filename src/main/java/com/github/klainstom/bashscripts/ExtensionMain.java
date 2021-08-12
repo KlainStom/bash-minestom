@@ -1,4 +1,4 @@
-package com.github.klainstom;
+package com.github.klainstom.bashscripts;
 
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.extensions.DiscoveredExtension;
