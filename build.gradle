@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.github.Minestom:Minestom:new-block-api-SNAPSHOT'
+    compileOnly 'com.github.Minestom:Minestom:-SNAPSHOT'
 }
 
 processResources.expand('version': version)
